@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+body {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #fff;
+	background-color: #333;
+}
+
+#nav {
+	padding: 0 30px;
+}
+
+#nav a {
+	font-weight: 300;
+	color: #fc4646;
+}
+
+#nav a.router-link-exact-active {
+	color: #fc4646;
+	padding-right: 5px;
+}
+
+#nav * {
+	text-decoration: none;
+}
+
+h3 {
+	margin: 40px 0 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #42b983;
+}
