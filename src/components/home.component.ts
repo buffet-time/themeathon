@@ -17,7 +17,7 @@ export class Home extends Vue {
 		const options: object = {
 			width: 800,
 			height: 450,
-			channel: 'themeathon'
+			channel: 'zfg1'
 			// just change channel to someone to test ofc
 		}
 		this.player = new Twitch.Player('twitch-player', options)
